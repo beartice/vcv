@@ -1,19 +1,33 @@
 <div *ngFor="let course of coursesList">
     <mat-card>
-        <mat-card-title>{{ course.entity }}</mat-card-title>
-        <mat-card-subtitle><b>Title: </b>{{ course.title }}</mat-card-subtitle>
-        <mat-card-content>
+        <mat-card-header>
+
             <div class="row">
-                <div class="col-md-4" style="padding-right: 10%"><img mat-card-image src="{{ course.imageUrl }}"
-                        alt="Photo of Course Logo"></div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6">
+                        <mat-card-title>{{ course.title }}</mat-card-title>
+                        
+                        <mat-card-subtitle>{{ course.entity }}</mat-card-subtitle>
+                        </div>
+                    </div>
+
+                    
+                </div>
+
+                <div class="col-md-12" style="padding-right: 10%; margin-top:0px"><img mat-card-image src="{{ course.imageUrl }}" alt="Photo of University Logo"></div>
             </div>
-            <hr>
+        
+        </mat-card-header>
+        <mat-card-content>
+            
+            
             <div class="row">
                 <div class="col-md-12">{{ course.info }}</div>
             </div>
             <div class="row">
                 <div *ngIf="course.infoUrl != ''" class="col-md-12">
-                    <a href="{{ course.infoUrl }}" target="_blank">See the title</a>
+                    <a href="{{ course.infoUrl }}" target="_blank">See certification details</a>
                 </div>
             </div>
         </mat-card-content>

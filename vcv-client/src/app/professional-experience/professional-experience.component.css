@@ -1,0 +1,11 @@
+.list-group{
+    font-size: xx-large;
+}
+
+.list-group a{
+    color:white;
+}
+
+.list-group a:hover{
+    color:#7c2b42;
+}

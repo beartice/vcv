@@ -1,9 +1,10 @@
 <div class="bgimg-2 w3-display-container w3-opacity-min">
     <div class="container top-5">
         <div class="row">
-            <div class="col-md-3">
-                <div class="list-group">
-                    <a routerLink="./{{ trainingEl.relativeUrl }}" *ngFor="let trainingEl of trainingList" class="bold">
+            <div class="col-md-3" >
+                <div class="list-group" >
+                    <a routerLink="./{{ trainingEl.relativeUrl }}" *ngFor="let trainingEl of trainingList" class="bold" 
+                    style="margin-bottom:40px;">
                         {{ trainingEl.name }}
                     </a>
                 </div>

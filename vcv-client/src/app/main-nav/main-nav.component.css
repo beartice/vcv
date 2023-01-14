@@ -10,6 +10,11 @@
   background: inherit;
 }
 
+.mat-toolbar{
+  background: #fcf3f4;
+  color: #2f2f2f;
+}
+
 .mat-toolbar.mat-primary {
   position: sticky;
   top: 0;
@@ -18,4 +23,16 @@
 
 .hidden {
     display: none;
+}
+
+.w3-button i{
+  padding:10px;
+}
+
+.w3-button{
+  font-size: smaller;
+}
+
+.w3-button:hover{
+  background: #fbdce2 !important;
 }
