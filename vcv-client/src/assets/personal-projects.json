@@ -1,25 +1,12 @@
 {
     "projects" : [
         {
-            "name": "Virtual CV",
+            "name": "Prova",
             "info": [
-                "In this roject I have created a virtual curriculum vitae where I can show information about me.",
-                "Is developed in Angular 7 and deployed in Google App Engine.",
-                "At first the main reason behind this project was to practise Angular, but as time passed I changed my mind in order to expand its potential, so it will serve as a template for others, that they will only need to fill some information in some files and this will produce a virtual CV. In the future I will write a tutorial post in which I\"ll show what changes you have to do in order to obtain your own CV"
+                ""
             ],
-            "technologies": "Angular 7",
-            "repository": "https://github.com/CarlosEspinoTimon/vcv",
-            "web": "https://carlos.espino.codes"
-        },
-        {
-            "name": "CRM",
-            "info": [
-                "This is an example of a Customer Relationship Managment. The backend server is developed in Flask and it uses MySQL as database",
-                "I used docker-compose and Docker to create a development environment easily shareable, so if anyone wants to participate it just clone the project, start it with just one command (having Docker and docker-compose installed) and start coding.",
-                "I implemented a CI/CD pipeline, using Jenkins to automate all the deploymentment. In this case the Jenkins pipeline runs some tests and the deploys the server in Google App Engine when changes are made in the master branch."
-            ],
-            "technologies": "Python, Flask, Docker, docker-compose, Jenkins, MySQL",
-            "repository": "https://github.com/CarlosEspinoTimon/crm_service",
+            "technologies": "",
+            "repository": "",
             "web": ""
         }
     ]
